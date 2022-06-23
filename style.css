@@ -1,0 +1,88 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+
+}
+
+.box{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70%;
+  width: 60%;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.contenitore{
+  width: 80%;
+  height: 20%;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+
+
+}
+
+header{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+#logo{
+  width: 200px;
+
+}
+
+.titolo{
+  color: lime;
+  padding-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+}
+
+main{
+  color: white;
+}
+
+.nome-pattino{
+  display: inline-block;
+  padding-top: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.via-pattino{
+  font-family: 'Poppins', sans-serif;
+}
+
+#orange{
+  border-style: solid;
+  border-color: orange;
+  border-width: 16px;
+  border-radius: 5%;
+  width: 30%;
+  display: inline-block;
+}
+
+#green{
+  border-style: solid;
+  border-color: rgba(0,200,0,0.9);
+  border-width: 16px;
+  border-radius: 5%;
+  width: 60%;
+  display: inline-block;
+}
+
+#red{
+  border-style: solid;
+  border-color: rgba(200,0,0,0.7);
+  border-width: 16px;
+  border-radius: 5%;
+  width: 10%;
+  display: inline-block;
+}
